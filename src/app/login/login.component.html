@@ -1,0 +1,103 @@
+<body>
+    <div class="box-principal">
+        <div class="box-login">
+            <div class="box-logo">
+
+
+                <img class="logo" src="assets/images/logo.png" height="50" width="150">| Web Store
+
+
+            </div>
+            <!-- CONFIGURAÇÃO DO FORMULARIO DE LOGIN-->
+            <div class="forms">
+                <form >
+                    <div class="form-group">
+
+                        <input  id="idLogin" type="text" class="form-control"   aria-describedby="emailHelp"  name="idLogin" placeholder="Digite seu ID"  [(ngModel)]="userId" >
+
+                    </div>
+                    <div class="form-group">
+
+                        <input  id="senhaLogin" type="password" class="form-control"  placeholder="Digite sua senha" name="senhaLogin"  [(ngModel)]="password">
+                    </div>
+                    <div class="form-group form-check">
+
+                    </div>
+
+                    <div class="footer layout-align-space-between-end layout-row" layout="row" layout-align="space-between end">
+                        <button class="md-button md-ink-ripple" type="button" ng-transclude="" md-ink-ripple="#000000" (click)="openModal()">Esqueceu a senha?</button>
+
+                        <button type="submit" class="md-raised md-ink-ripple margin-left-24 md-button" type="submit" ng-transclude="" md-ink-ripple="#000000" (click)="fazerLogin()">Entrar</button>
+
+
+                    </div>    
+
+                </form>
+              
+
+                <!-- CONFIGURAÇÃO DO MODAL DE RECUPERAR SENHA-->
+                <div class="backdrop" [ngStyle]="{'display':display}"></div>
+                <div class="modal" tabindex="-1" role="dialog" [ngStyle]="{'display':display}">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+
+                                <h4 class="modal-title">Esqueceu sua senha?</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>Não se preocupe! Você receberá um e-mail com o link para definir uma nova senha.</p>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-light" (click)="fecharModal()">Cancelar</button>
+                                <button type="button" class="btn btn-light" (click)="fecharModal()">Confirmar</button>
+
+
+                            </div>
+                        </div>
+                        <!-- /.modal-content -->
+                    </div>
+                    <!-- /.modal-dialog -->
+                </div>
+                <!-- /.modal !-->
+            </div>
+        </div>
+    </div>
+
+
+    <div class="backdrop2" [ngStyle]="{'displayModal':displayModal}"></div>
+        <div class="modal" tabindex="-1" role="dialog" [ngStyle]="{'display':displayModal}">
+          <div class="modal-dialog-senha" role="document">
+            <div class="modal-content-senha">
+
+
+              <p class="modal-title-senha">Primeiro acesso?<br>Cadastre sua nova senha</p>
+              
+
+
+              <form>
+                <div class="form-group">
+
+                
+
+                  <input type="password" class="form-control" id="email" placeholder="Digite sua nova senha">
+                </div>
+                <div class="form-group">
+
+                  <input type="password" class="form-control" id="pwd" placeholder="Confirme sua nova senha">
+                </div>
+
+                <button class="btn-confirmar" type="submit" ng-transclude="" md-ink-ripple="#000000" (click)="fecharModal()">Confirmar</button>
+              </form>
+
+
+
+            </div>
+            <!-- /.modal-content -->
+          </div>
+          <!-- /.modal-dialog -->
+        </div>
+        <!-- /.modal !-->
+
+
+</body>

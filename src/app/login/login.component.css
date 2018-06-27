@@ -1,0 +1,195 @@
+body{
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    background: url("https://firebasestorage.googleapis.com/v0/b/celebrate-c640b.appspot.com/o/bg-login-teste.png?alt=media&token=197caaad-818a-4d3a-ae4c-f871e03f8266");
+}
+.box-login{
+    border-radius: 4px;
+    background:white;
+    margin: auto;
+    width: 340px;
+    height: 340px;
+    -webkit-box-shadow: 0px 2px 29px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 29px -2px rgba(0,0,0,0.75);
+     box-shadow: 0px 2px 29px -2px rgba(0,0,0,0.75);
+    
+}
+.box-principal{
+    padding: 12%;
+    
+}
+.box-logo{
+    padding-top: 30px;
+    padding-left: 10px;
+    background: #351551;
+    color: white;
+    height: 30%;
+    border-radius: 4px 4px 0px 0px;
+}
+.forms{
+    margin-top: 30px;
+    padding: 5%;
+    font-size:10px;
+    
+}
+.md-button {
+    margin-top: -20px;
+    display: inline-block;
+    position: relative;
+    min-height: 36px;
+    min-width: 88px;
+    line-height: 36px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 2px;
+    box-sizing: border-box;
+    border: 0;
+    padding: 0 6px;
+    background: 0 0;
+    color: #351551;
+    font-weight: 500;
+    font-size: 14px;
+    font-style: inherit;
+    font-variant: inherit;
+    font-family: inherit;
+    text-decoration: none;
+    overflow: hidden;
+    -webkit-transition: box-shadow .4s cubic-bezier(.25,.8,.25,1),background-color .4s cubic-bezier(.25,.8,.25,1);
+    transition: box-shadow .4s cubic-bezier(.25,.8,.25,1),background-color .4s cubic-bezier(.25,.8,.25,1);
+}
+.md-raised{
+    float: right;
+    margin-left: 60px;
+    height: 46px;
+    background-color: #351551;
+    color: #fff;
+    box-shadow: none;
+    padding: 0 16px;
+}
+
+.modal {
+    text-align: center;
+    
+}
+  
+  @media screen and (min-width: 768px) { 
+    .modal:before {
+      display: inline-block;
+      vertical-align: middle;
+      content: " ";
+      height: 100%;
+      
+    }
+}
+  .modal-dialog {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+    
+}
+  .modal-footer{
+      height: 70px;
+      background: #f1f1f1;
+      padding-bottom: 6%;
+}
+  .modal-header{
+      padding-top: 40px;
+      padding-left: 40px;
+      color: #aaaaaa;
+      border-color:white;
+  }
+
+.modal-body{
+    margin-top: -20px;  
+    padding-left: 40px;
+    color: #aaaaaa;
+    font-size: 15px;
+    
+  
+}
+.btn{
+    background: #f1f1f1;
+    border-color:#f1f1f1;
+    color: #351551;
+    margin-top: 20px;
+    margin-right: 33px;
+    margin-left: 3px;
+    letter-spacing: .010em;
+    display: inline-block;
+    position: relative;
+    min-height: 36px;
+    min-width: 88px;
+    line-height: 36px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 2px;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    border: 0;
+    padding: 0 6px;
+    background: 0 0;
+    color: #351551;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    font-style: inherit;
+    font-variant: inherit;
+    font-family: inherit;
+    text-decoration: none;
+    overflow: hidden;
+    -webkit-transition: box-shadow .4s cubic-bezier(.25,.8,.25,1),background-color .4s cubic-bezier(.25,.8,.25,1);
+    transition: box-shadow .4s cubic-bezier(.25,.8,.25,1),background-color .4s cubic-bezier(.25,.8,.25,1);
+}
+.footer{
+    margin-top: 55px;
+}
+.modalSenha {
+    position: absolute;
+    left: 50%;
+    top: 50%; 
+    margin-left: -150px;
+    margin-top: -40%;
+}
+.btn-confirmar{
+    height: 36px;
+    background-color: #351551;
+    color: #fff;
+        box-shadow: none;
+        padding: 0 16px;
+        text-decoration: none;
+        overflow: hidden;
+        margin-top: 20px;
+        margin-left: 25%;   
+}
+.modal-content-senha{
+    background: white;
+    padding: 5%;
+    
+}
+
+.modal-dialog-senha{
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+    -webkit-box-shadow: 0px 2px 29px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 29px -2px rgba(0,0,0,0.75);
+     box-shadow: 0px 2px 29px -2px rgba(0,0,0,0.75);
+    
+    
+}
+.modal-content-senha{
+    padding: 30px;
+  
+}
+.form-control{
+    font-size:15px;
+}
+
